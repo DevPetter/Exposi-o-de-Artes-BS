@@ -4,7 +4,7 @@
 }
 
 a, i {
-    transition: .5s;
+    transition: .3s;
     text-decoration: none;
 }
 
@@ -60,15 +60,38 @@ span{
 
 /*NAVBAR*/
 #navbar{
-    padding: 10px;
-    margin: 10px auto;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #navbar a{
-    width: 80px;
+    font-size: 1.1rem;
+    transition: .5s;
+    width: 110px;
     color: #444;
 }
 
+
 #navbar a:hover{
+    text-decoration: underline;
+    transform: scale(1.1);
     color: #c1b696;
+}
+
+/*MAIN IMAGE*/
+.main-image{
+    height: 400px;
+    background-image: url('../img/g_1.jpg');
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.main-image-info{
+    background-color: white;
+    padding: 25px;
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
+    box-shadow: 3px 3px 10px black;
 }
