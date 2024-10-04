@@ -30,6 +30,12 @@ a, i {
     color:white;
 }
 
+span{
+    text-decoration: underline;
+    font-weight: 650;
+    font-style: italic;
+}
+
 /*HEADER*/
 #header{
     text-align: center;
@@ -47,8 +53,9 @@ a, i {
 }
 
 #logo{
+    margin-left: -40px;
     width: 40px;
-    margin-right: 15px;
+    padding-right: 5px;
 }
 
 /*NAVBAR*/
