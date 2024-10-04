@@ -1,0 +1,9 @@
+/*Estilos gerais*/
+*{
+    color: #25282E;
+}
+
+a, i {
+    transition: .5s;
+    text-decoration: none;
+}
